@@ -15,6 +15,8 @@
 		D93974182112BA8A00EFC1FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93974172112BA8A00EFC1FD /* main.m */; };
 		D93974222112BA8B00EFC1FD /* uploadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D93974212112BA8B00EFC1FD /* uploadDemoTests.m */; };
 		D939742D2112BA8B00EFC1FD /* uploadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D939742C2112BA8B00EFC1FD /* uploadDemoUITests.m */; };
+		D939743C2112D7E500EFC1FD /* view1.m in Sources */ = {isa = PBXBuildFile; fileRef = D939743B2112D7E500EFC1FD /* view1.m */; };
+		D939743F2112D7F200EFC1FD /* view2.m in Sources */ = {isa = PBXBuildFile; fileRef = D939743E2112D7F200EFC1FD /* view2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D93974282112BA8B00EFC1FD /* uploadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uploadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D939742C2112BA8B00EFC1FD /* uploadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uploadDemoUITests.m; sourceTree = "<group>"; };
 		D939742E2112BA8B00EFC1FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D939743A2112D7E500EFC1FD /* view1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = view1.h; sourceTree = "<group>"; };
+		D939743B2112D7E500EFC1FD /* view1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = view1.m; sourceTree = "<group>"; };
+		D939743D2112D7F200EFC1FD /* view2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = view2.h; sourceTree = "<group>"; };
+		D939743E2112D7F200EFC1FD /* view2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = view2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		D93973FC2112BA8900EFC1FD = {
 			isa = PBXGroup;
 			children = (
+				D939743D2112D7F200EFC1FD /* view2.h */,
+				D939743E2112D7F200EFC1FD /* view2.m */,
 				D93974072112BA8900EFC1FD /* uploadDemo */,
 				D93974202112BA8B00EFC1FD /* uploadDemoTests */,
 				D939742B2112BA8B00EFC1FD /* uploadDemoUITests */,
@@ -105,6 +113,8 @@
 				D93974092112BA8900EFC1FD /* AppDelegate.m */,
 				D939740B2112BA8900EFC1FD /* ViewController.h */,
 				D939740C2112BA8900EFC1FD /* ViewController.m */,
+				D939743A2112D7E500EFC1FD /* view1.h */,
+				D939743B2112D7E500EFC1FD /* view1.m */,
 				D939740E2112BA8900EFC1FD /* Main.storyboard */,
 				D93974112112BA8A00EFC1FD /* Assets.xcassets */,
 				D93974132112BA8A00EFC1FD /* LaunchScreen.storyboard */,
@@ -264,7 +274,9 @@
 			files = (
 				D939740D2112BA8900EFC1FD /* ViewController.m in Sources */,
 				D93974182112BA8A00EFC1FD /* main.m in Sources */,
+				D939743C2112D7E500EFC1FD /* view1.m in Sources */,
 				D939740A2112BA8900EFC1FD /* AppDelegate.m in Sources */,
+				D939743F2112D7F200EFC1FD /* view2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
