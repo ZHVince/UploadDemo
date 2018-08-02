@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *ss;
+    NSArray *s;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
